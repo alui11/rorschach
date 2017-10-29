@@ -1,0 +1,6 @@
+CREATE  DYING_ISNT_EASY         touch {0}/YOU_LEFT_ME_JUST_WHEN_I_NEEDED_YOU
+MODIFY  DYING_ISNT_EASY         touch {0}/YOU_SET_ME_BACK_WHEN_I_THOUGHT_I_GOT_BACK
+DELETE  DYING_ISNT_EASY         touch {0}/JUST_WHEN_I_THOUGHT_I_GOT_BACK
+CREATE  number.5                echo ${{FULLPATH}} >  {0}/with_a_bullet
+MODIFY  number.5                echo ${{BASEPATH}} >> {0}/with_a_bullet
+DELETE  number.5                echo ${{EVENT}} ${{TIMESTAMP}} >> {0}/with_a_bullet
