@@ -1,9 +1,7 @@
-CSE.30341.FA17: Project 01
+Rorschach
 ==========================
 
-[Project 01]:       https://www3.nd.edu/~pbui/teaching/cse.30341.fa17/project01.html
-[CSE.30341.FA17]:   https://www3.nd.edu/~pbui/teaching/cse.30341.fa17/
-
+[CSE.30341.FA17 Project 01 Document](https://www3.nd.edu/~pbui/teaching/cse.30341.fa17/project01.html)
 
 Overview
 -------
@@ -23,10 +21,10 @@ Environment Variables
 -------
 Rorscach will set the following environment variables for each event:
 
-1. *BASEPATH*: This is the base path of the file (i.e. without any proceeding extensions).
-2. *FULLPATH*: This is the full path of the file.
-3. *EVENT*: This is the type of event detected.
-4. *TIMESTAMP*: This is the current timestamp.
+1. **BASEPATH**: This is the base path of the file (i.e. without any proceeding extensions).
+2. **FULLPATH**: This is the full path of the file.
+3. **EVENT**: This is the type of event detected.
+4. **TIMESTAMP**: This is the current timestamp.
 
 Usage
 -------
